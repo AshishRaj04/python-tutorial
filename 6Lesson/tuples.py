@@ -1,3 +1,5 @@
+# In Python, a tuple is a collection data type that is ordered and immutable. It is similar to a list but with the key difference that tuples cannot be modified once they are created. 
+
 myTuple = tuple(('Raj' , 2003 , True))
 anotherTuple = (1,2,3,4,5,6 ,2,4,5,4)
 print(myTuple)

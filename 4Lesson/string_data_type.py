@@ -32,8 +32,8 @@ multiline = '''
 '''
 print(multiline)
 
-# Escaping special characters
-sentence = 'I\'m a fullstact developer .\n \t Hey! where\'s your projects'
+# Escaping special characters  \t stands for tab.
+sentence = 'I\'m a fullstact developer .\n \tHey! where\'s your projects'
 print(sentence)
 
 # String Methods
@@ -41,7 +41,7 @@ print(first)
 print(first.lower())
 print(first.upper())
 
-print(multiline.title())
+print(multiline.title())  # Starts every word with capital letter
 print(multiline.replace("Hii" , "Hey"))
 print(multiline.title())
 

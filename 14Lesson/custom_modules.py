@@ -25,3 +25,11 @@ def facts_Bihar():
 
 if __name__ == "__main__":
     facts_Bihar()
+
+# In Python, the __name__ variable is a special built-in variable that represents the name of the current module. When a Python script or module is executed, Python sets the __name__ variable to '__main__' if the script is being run as the main program.
+
+# The if __name__ == '__main__': block is commonly used to determine whether the Python script is being run directly or if it is being imported as a module into another script. Here's what happens:
+
+# When the script is run directly, Python sets __name__ to '__main__', indicating that it is the main program being executed.
+# If the script is imported as a module into another script, then __name__ is set to the name of the module (not '__main__').
+# So, when you see if __name__ == '__main__':, it's a way of checking if the script is being run as the main program and not being imported as a module. The code inside this block will only be executed if the script is the main program. This is often used for defining and executing code that should only run when the script is run directly and not when it's imported as a module into another script.
